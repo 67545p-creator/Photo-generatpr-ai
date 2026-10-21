@@ -1,0 +1,8 @@
+
+{
+  "name": "github-photo-generator",
+  "version": "1.0.0",
+  "description": "GitHub Photo Generator",
+  "main": "index.js",
+  "type": "module"
+}
