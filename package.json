@@ -2,7 +2,16 @@
 {
   "name": "github-photo-generator",
   "version": "1.0.0",
-  "description": "GitHub Photo Generator",
-  "main": "index.js",
-  "type": "module"
+  "description": "Internet-enabled GitHub Photo Generator",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }
